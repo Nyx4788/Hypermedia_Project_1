@@ -1,0 +1,141 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* seccio Nav Bar */
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;           
+    background-color: #062446;
+    color: white;
+    padding: 20px 50px;
+    border-top-left-radius: 10px;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav_buttons {
+    display: flex;
+    gap: 30px;
+    background-color: #062446;
+    color: white;
+    justify-content: space-around;
+    padding: 20px 50px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav_buttons h2 {
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 20px 40px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.nav_buttons h2:hover {
+    box-shadow: 4px 4px black;
+}
+
+/* seccio About me */
+
+.About_me {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.About_me .image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.About_me .text {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+}
+
+.About_me .text h1 {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #062446;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.About_me .text p {
+    margin: 0 0 15px 0;
+    line-height: 1.5;
+}
+
+.About_me .text img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.About_me .text p, .About_me .text span {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+/* seccio Experience*/
+
+.Experience h1 {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #062446;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Experience a {
+    font-size: larger;
+    font-weight: bold;
+    pointer-events: auto;
+    text-decoration: none; 
+    color: #062446;
+    margin: 10px 0 5px 0;
+}
+
+.Experience a:hover {
+    text-decoration: underline;
+    color: #145094;
+}
+
+
+
+/*seccio Formation*/
+
+.Formation h1{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #062446;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Formation h3{
+    color: #062446;
+}
